@@ -6,8 +6,8 @@ import com.woniu.dao.DAOFactory;
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		User user = new User(1,"2","3",4);
+		// ≤‚ ‘¿‡
+		User user = new User(3,"11","3113",2);
 		DAOFactory.getUserDAO().save(user);
 	}
 
