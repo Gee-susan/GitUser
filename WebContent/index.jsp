@@ -7,7 +7,7 @@
 </head>
 <body>
 <f:view>
-ha ha
+ha ha  哈哈
 </f:view>
 </body>
 </html>
