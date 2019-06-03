@@ -2,6 +2,7 @@ package com.woniu.dao;
 
 import java.util.List;
 
+import com.woniu.bean.PageBean;
 import com.woniu.bean.User;
 import com.woniu.util.BaseDAO;
 
@@ -45,5 +46,5 @@ public class UserDAOImpl implements IUserDAO {
 		List<User> u = bd.select(sql, objs, User.class);
 		return u;
 	}
-
+	
 }
